@@ -1,19 +1,25 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ShareWiki',
+  tagline: "Let's share you knowledge!",
+  url: 'https://sharewiki.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sharewiki', // Usually your GitHub org/user name.
+  projectName: 'sharewiki', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-FSD3ZEV6FP',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
-      title: 'My Site',
+      title: 'ShareWiki',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ShareWiki Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',

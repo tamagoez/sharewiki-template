@@ -1,3 +1,6 @@
+# ShareWiki
+
+<!--
 # Docusaurus Example
 
 This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed with Vercel and zero configuration.
@@ -15,3 +18,4 @@ To get started with Docusaurus on Vercel, you can use the [Docusaurus CLI](https
 ```shell
 $ npx @docusaurus/init@next init my-website classic
 ```
+-->

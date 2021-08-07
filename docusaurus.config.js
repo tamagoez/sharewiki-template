@@ -6,7 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'sharewiki', // Usually your GitHub org/user name.
   projectName: 'sharewiki', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'G-FSD3ZEV6FP',
